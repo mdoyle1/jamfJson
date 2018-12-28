@@ -10,14 +10,14 @@ import Foundation
 
 
 //Setup Authenticated Session!
-let username = "apiTest"
-let password = "Eastern1!"
+let username = ""
+let password = ""
 
 class APIrequest: NSObject {
   
     func jamfBuildings (type: String) {
 
-    let jamfURL = "https://ecsu-jss.easternct.edu:8443/JSSResource/\(type)"
+    let jamfURL = "/JSSResource/\(type)"
 
         
 // Request options
