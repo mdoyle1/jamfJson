@@ -11,6 +11,8 @@
 		7F3DF09C21D5064A00E48B47 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3DF09B21D5064A00E48B47 /* ViewController.swift */; };
 		7F3DF09E21D5064C00E48B47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F3DF09D21D5064C00E48B47 /* Assets.xcassets */; };
 		7F3DF0A121D5064C00E48B47 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F3DF09F21D5064C00E48B47 /* Main.storyboard */; };
+		7F88982D21D6A9D3007BD04F /* jsonParsers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F88982C21D6A9D3007BD04F /* jsonParsers.swift */; };
+		7F88983121D6C5BD007BD04F /* jamfStructs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F88983021D6C5BD007BD04F /* jamfStructs.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +23,8 @@
 		7F3DF0A021D5064C00E48B47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7F3DF0A221D5064C00E48B47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7F3DF0A321D5064C00E48B47 /* jamfJsonParsing.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = jamfJsonParsing.entitlements; sourceTree = "<group>"; };
+		7F88982C21D6A9D3007BD04F /* jsonParsers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jsonParsers.swift; sourceTree = "<group>"; };
+		7F88983021D6C5BD007BD04F /* jamfStructs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jamfStructs.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				7F3DF09F21D5064C00E48B47 /* Main.storyboard */,
 				7F3DF0A221D5064C00E48B47 /* Info.plist */,
 				7F3DF0A321D5064C00E48B47 /* jamfJsonParsing.entitlements */,
+				7F88982C21D6A9D3007BD04F /* jsonParsers.swift */,
+				7F88983021D6C5BD007BD04F /* jamfStructs.swift */,
 			);
 			path = jamfJsonParsing;
 			sourceTree = "<group>";
@@ -138,7 +144,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F88982D21D6A9D3007BD04F /* jsonParsers.swift in Sources */,
 				7F3DF09C21D5064A00E48B47 /* ViewController.swift in Sources */,
+				7F88983121D6C5BD007BD04F /* jamfStructs.swift in Sources */,
 				7F3DF09A21D5064A00E48B47 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
